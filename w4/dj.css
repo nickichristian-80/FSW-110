@@ -1,0 +1,15 @@
+.button {
+    background-color: rgb(160, 161, 161);
+    color: hsla(0, 17%, 2%, 0.952);
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin:10px
+}
+
+
+button {
+    width: 200px;
+    height: 60px;
+}
