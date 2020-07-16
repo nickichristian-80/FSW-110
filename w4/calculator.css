@@ -1,0 +1,81 @@
+body{
+    font-family: 'sophie';
+    background-color: black;
+    font-size:30px;
+}
+#container{
+	width: 1000px;
+	height: 550px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
+	margin: 10px auto;	
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: #2ae9df;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 0%;
+	
+}
+#result{
+	height: 120px;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;background-color: gray;
+}
+#keyboard{
+	height: 400px;
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 30%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+}
+.number, .empty{
+    background-color: #fac7eb;
+    font-size: 40px;
+    font-family: 'sophie'
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 20px;
+}
+
+button:nth-child(4){
+	font-size: 40px;
+    background-color: #67fba0;
+    font-family: 'sophie'
+}
+button:nth-child(8){
+	font-size: 40px;
+    background-color: #c793f8;
+    font-family: 'sophie'
+}
+button:nth-child(12){
+	font-size: 40px;
+    background-color: #f69797;
+    font-family: 'sophie'
+}
+button:nth-child(14){
+	font-size: 40px;
+    background-color: #66d2f3;
+    font-family: 'sophie'
+}
+button:nth-child(15){
+	font-size: 40px;
+    background-color: #66d2f3;
+    font-family: 'sophie'
+}
+
